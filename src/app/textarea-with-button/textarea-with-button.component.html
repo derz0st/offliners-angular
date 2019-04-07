@@ -1,0 +1,23 @@
+<textarea
+  [ngClass]="textareaClass"
+  row="4"
+  nz-input
+  (blur)="onTextAreaBlur()"
+  (click)="onTextAreaFocused()"
+  [(ngModel)]="inputValue"
+  (ngModelChange)="onTextAreaChange()"
+  [placeholder]="textareaPlaceholder"
+>
+</textarea>
+
+<button
+  [disabled]="!isValid"
+  *ngIf="textareaFocused"
+  class="save-button"
+  nz-button
+  nzType="primary"
+  (click)="onSaveButtonClick()"
+  [nzLoading]="isLoadingOne"
+>
+  Save
+</button>

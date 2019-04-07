@@ -1,0 +1,76 @@
+.event {
+  float: left;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 0px 5px rgba(0,0,0,0.07);
+  padding: 20px 30px 20px 30px;
+  box-sizing: border-box;
+}
+
+.event_header {
+  height: 65px;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+.post_author_photo {
+  margin-right: 10px;
+  background: none;
+}
+
+.post_author_photo img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.post_header_info {
+  margin-left: 15px;
+  margin-top: 5px;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  width: -webkit-calc(100% - 165px);
+  width:    -moz-calc(100% - 165px);
+  width:         calc(100% - 165px);
+}
+
+.post_author_name {
+  margin-top: 5px;
+  font-size: 1em;
+  font-weight: 500;
+  color: #474747;
+}
+
+.post_author_info {
+  margin-top: 3px;
+  font-size: 0.8em;
+  color: #a9a8a8;
+  font-weight: 300;
+}
+
+.post_create_time {
+  height: 20px;
+  margin-top: 15px;
+  font-size: 0.85em;
+  font-weight: 300;
+  color: #a9a8a8;
+  background: none;
+}
+
+.post_text {
+  width: 100%;
+  margin: 20px 0 20px 0;
+  color: #5b5b5b;
+  font-size: 0.9em;
+  line-height: 1.5em;
+  letter-spacing: 0.01em;
+}
+
+.post_image {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.-background-none {
+  background: transparent none;
+}

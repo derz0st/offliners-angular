@@ -1,0 +1,63 @@
+.chart_block {
+  margin-top: 20px;
+  float: left;
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 0px 5px rgba(0,0,0,0.07);
+  padding: 20px 30px 20px 30px;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin-left: 25px;
+  color: #474747;
+  line-height: 3em;
+  height: 320px;
+  box-sizing: border-box;
+}
+
+.chart_name {
+  height: 65px;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+}
+
+.chart_views {
+  float: left;
+  margin-top: 20px;
+  width: 50%;
+  box-sizing: border-box;
+  padding-top: 0;
+  height: 40px;
+  border-right: 1px solid rgba(0,0,0,0.07);
+}
+
+.chart_number {
+  line-height: 20px;
+  height: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.chart_description {
+  padding: 0;
+  margin: 0;
+  height: 15px;
+  font-size: 0.9em;
+  color: #a9a8a8;
+  line-height: 15px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.chart_visitors {
+  float: left;
+  margin-top: 20px;
+  width: 50%;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.chart_div {
+  margin-top: 20px;
+  float: left;
+  height: 120px;
+  width: 100%;
+}

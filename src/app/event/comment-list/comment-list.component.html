@@ -1,0 +1,8 @@
+<div class="comments_section">
+  <div *ngFor="let comment of comments">
+    <app-comment [comment]="comment"></app-comment>
+  </div>
+  <app-new-comment
+    (commentCreated)="addNewCommentToList($event)">
+  </app-new-comment>
+</div>

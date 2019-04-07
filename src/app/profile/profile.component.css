@@ -1,0 +1,109 @@
+.profile_block {
+  margin-top: 20px;
+  float: right;
+  margin-right: 25px;
+  width: 300px;
+  background-color: #ffffff;
+  box-shadow: 0 0px 5px rgba(0,0,0,0.07);
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.photo {
+  margin: 40px auto 15px auto;
+  border-radius: 100px;
+  height: 100px;
+  width: 100px;
+}
+
+.name {
+  font-size: 0.95em;
+  font-weight: 500;
+}
+
+.secondary_info {
+  margin-top: 7px;
+  font-size: 0.8em;
+  color: #a9a8a8;
+}
+
+.profile_block .followers {
+  float: left;
+  height: 70px;
+  width: 50%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0,0,0,0.07);
+  border-right: 1px solid rgba(0,0,0,0.07);
+  border-top: 1px solid rgba(0,0,0,0.07);
+  margin: 10px 0 10px 0;
+}
+
+.profile_block .following {
+  float: left;
+  height: 70px;
+  width: 50%;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.07);
+  border-top: 1px solid rgba(0, 0, 0, 0.07);
+  margin: 10px 0 10px 0;
+}
+
+.number {
+  float: left;
+  width: 100%;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.follow_name {
+  float: left;
+  width: 100%;
+  margin-top: 7px;
+  font-size: 0.8em;
+  color: #a9a8a8;
+  text-align: center;
+}
+
+.social_item {
+  margin-top: 10px;
+  float: left;
+  width: 100%;
+  height: 25px;
+}
+
+.social_item img {
+  float: left;
+  margin: 0px 10px 5px 50px;
+  width: 20px;
+  height: 20px;
+}
+
+.social_item .social_logo {
+  float: left;
+  margin: 0px 10px 5px 50px;
+  width: 20px;
+  height: 20px;
+  background-size: 20px;
+}
+
+.social_item .telegram {
+  background-image: url('../../assets/img/telegram.png');
+}
+
+.social_item .facebook {
+  background-image: url('../../assets/img/facebook.png');
+}
+
+.social_item .twitter {
+  background-image: url('../../assets/img/twitter.png');
+}
+
+.link {
+  height: 20px;
+  line-height: 14px;
+  margin-left: 10px;
+  box-sizing: border-box;
+  float: left;
+  font-size: 13px;
+  color: #a9a8a8;
+}

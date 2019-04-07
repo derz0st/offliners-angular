@@ -1,0 +1,9 @@
+<div class="new-event">
+  <ul nz-menu [nzMode]="'horizontal'">
+    <li nz-menu-item nz-col nzSpan="8"><i class="anticon anticon-form"></i> Add event</li>
+    <li nz-menu-item nz-col nzSpan="8"><i class="anticon anticon-picture"></i> Upload photo</li>
+    <li nz-menu-item nz-col nzSpan="8"><i class="anticon anticon-environment-o"></i> Add geolocation</li>
+  </ul>
+  <textarea row="4" nz-input (blur)="onTextAreaBlur()" (click)="onTextAreaFocused()" [(ngModel)]="inputValue" (ngModelChange)="onTextAreaChange()" placeholder="Enter text here"></textarea>
+  <button [disabled]="!isValid" *ngIf="textareaFocused" class="save-button" nz-button nzType="primary" (click)="loadOne()" [nzLoading]="isLoadingOne">Save</button>
+</div>

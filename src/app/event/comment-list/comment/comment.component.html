@@ -1,0 +1,14 @@
+<nz-layout ngClass="-background-none comment">
+  <nz-sider class="post_comment_author_img -background-none" [nzWidth]="50">
+    <img [src]="comment.authorImgUrl" />
+  </nz-sider>
+  <nz-layout ngClass="-background-none">
+    <nz-layout class="-background-none">
+      <nz-content class="post_comment_author_name -background-none"> {{ comment.authorName }} </nz-content>
+      <nz-sider class="post_comment_create_time -background-none" [nzWidth]="width"> {{ comment.created.toDateString() }} </nz-sider>
+    </nz-layout>
+    <nz-content>
+      <div class="post_comment_text"> {{ comment.text }} </div>
+    </nz-content>
+  </nz-layout>
+</nz-layout>

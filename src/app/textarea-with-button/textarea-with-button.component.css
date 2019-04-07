@@ -1,0 +1,11 @@
+textarea {
+  padding: 0 0 0 3px;
+  border: none;
+  resize: none;
+}
+
+textarea:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
